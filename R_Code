@@ -1,0 +1,48 @@
+#install.packages('tidygraph')
+#install.packages('ggraph')
+library('tidygraph')
+library('ggraph')
+library('ggrepel')
+read.csv('R_Data.csv')
+feat <- read.csv('R_Data.csv')
+feat1 <- read.csv('R_Data.csv')
+feat2 <- read.csv('R_Data.csv')
+feat3 <- read.csv('R_Data.csv')
+head(feat)
+class(feat)
+
+feat1 %>% as_tbl_graph() %>% #Degree Centrality
+  mutate(cd=centrality_degree()) %>%
+  as_tibble %>% 
+  arrange(desc(cd)) %>% 
+  print(n = 100) 
+ 
+
+feat2 %>% as_tbl_graph() %>% #Closeness Centrality
+  mutate(cc=centrality_closeness()) %>%
+  as_tibble %>% 
+  arrange(desc(cc)) %>% 
+  print(n = 100) 
+
+feat3 %>% as_tbl_graph() %>% Betweeness Centrality
+  mutate(cb=centrality_betweenness()) %>%
+  as_tibble %>% 
+  arrange(desc(cb)) %>% 
+  print(n = 100) 
+
+feat %>%
+  as_tbl_graph(directed=FALSE) %>%
+  activate(nodes) %>%
+  mutate(degree = centrality_degree(),
+         group = group_infomap()) %>%
+  ggraph() +
+    geom_edge_link(color='gray30', alpha=.3) +
+#    geom_node_point(aes(color=group, size=degree)) +
+    geom_node_point(aes(color=factor(group), size=degree)) +
+#    geom_node_point(aes(color="gray", size=degree)) +
+
+#    scale_size_continuous(name = "Degree Centrality") + 
+    scale_size(range = c(5,20))+
+    geom_node_text(aes(label=name), repel=TRUE, size=7) +
+    theme_graph()
+#    theme(legend.position = 'none')
