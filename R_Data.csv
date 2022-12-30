@@ -1,0 +1,135 @@
+from,to
+Spastic hemiparesis,Force
+Force,Finger tapping
+Parkinson's,Magnetic
+Magnetic,Finger tapping
+Parkinson's,Force
+Force,Pinch Strength
+Stroke,Force
+Force,Hand grip
+Parkinson's,3-axis accelerometer
+3-axis accelerometer,Finger tapping
+Stroke,Force
+Force,Finger tapping
+Stroke,Force
+Force,Finger tapping
+Parkinson's,Touch
+Touch,Finger tapping
+Parkinson's,Magnetic
+Magnetic,Finger tapping
+Cerebellar lesion,Touch
+Touch,Finger tapping
+Stroke,Force
+Force,Pinch Strength
+Parkinson's,Touch
+Touch,Finger tapping
+Parkinson's,Magnetic
+Magnetic,Finger tapping
+Parkinson's,IMU
+IMU,Finger tapping
+"Alzheimer's, MCI",Touch
+Touch,Finger tapping
+Stroke,Force
+Force,Hand grip
+Stroke,Force
+Force,Hand grip
+Parkinson's,Magnetic
+Magnetic,Finger tapping
+"TS, TS+ADHD",Touch
+Touch,Finger tapping
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close velocity
+Finger tapping,Open and close acceleration
+Finger tapping,Open and close acceleration
+Finger tapping,Open and close acceleration
+Finger tapping,Open and close acceleration
+Finger tapping,Open and close acceleration
+Finger tapping,Open and close acceleration
+Finger tapping,Open and close acceleration
+Finger tapping,Open and close acceleration
+Finger tapping,NTF
+Finger tapping,NTF
+Finger tapping,NTF
+Finger tapping,NTF
+Finger tapping,NTF
+Finger tapping,NTF
+Finger tapping,NTF
+Finger tapping,NTF
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger tapping interval
+Finger tapping,Finger contact time
+Finger tapping,Finger contact time
+Finger tapping,Finger contact time
+Finger tapping,Finger contact time
+Finger tapping,Finger contact time
+Finger tapping,Finger contact time
+Finger tapping,Finger contact time
+Finger tapping,Finger contact time
+Finger tapping,Finger contact time
+Finger tapping,Strength
+Finger tapping,Strength
+Finger tapping,Strength
+Finger tapping,Time from sound signal to tap
+Finger tapping,Time from sound signal to tap
+Finger tapping,Time from sound signal to tap
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Max. amplitude or angle
+Finger tapping,Tapping accuracy
+Finger tapping,Tapping accuracy
+Finger tapping,Tapping accuracy
+Finger tapping,Distance
+Finger tapping,Distance
+Finger tapping,Inter-hand phase difference
+Finger tapping,Slope of max. point
+Finger tapping,No. of hesitations and halt
+Finger tapping,IDAF
+Finger tapping,IDA
+Pinch Strength,Error of target and observed force
+Pinch Strength,Error of target and observed force
+Pinch Strength,Error of target and observed force
+Pinch Strength,Error of target and observed force
+Pinch Strength,Release duration time
+Pinch Strength,Strength
+Hand grip,Rising time
+Hand grip,Max.overshoot
+Hand grip,Release duration time
+Hand grip,Strength
+Hand grip,Strength
+Hand grip,Error of target and observed force
+Hand grip,Alternating time
